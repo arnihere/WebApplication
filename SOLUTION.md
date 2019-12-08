@@ -1,0 +1,3 @@
+#SOLUTION
+
+This application is pure Javascript with HTML <canvas> element. There is an animation frame which draws all the frames. There are some classes such as Rectangle and Circle ones with attributes such as x-coordinate, y-coordinate, color and size. Apparently, mouseListener events are used to make sure that mousedown, mousemove, and mouseup events are taken into account. To move elements, I introduced *prevCurX* and *prevCurY* to see what was the mouse location in a frame before current one and based on that rectangles were moved. To draw lines, there is a boolean value for circles **selected**, and upon locating another circle, this pair of circles is saved and line between them is drawn every time.   
